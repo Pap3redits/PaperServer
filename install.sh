@@ -10,7 +10,7 @@ sudo apt update
 sudo apt upgrade -y
 
 #create bin folder
-#sudo mkdir ~/bin
+sudo mkdir ~/bin
 
 #create update script
 touch ~/bin/update
