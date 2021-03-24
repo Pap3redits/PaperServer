@@ -13,18 +13,18 @@ sudo apt upgrade -y
 sudo mkdir ~/bin
 
 #create update script
-touch ~/bin/update
-echo '#!/bin/bash' >> ~/bin/update
-echo 'sudo apt update' >> ~/bin/update
-echo 'sudo apt upgrade -y' >> ~/bin/update
+sudo touch ~/bin/update
+sudo echo '#!/bin/bash' >> ~/bin/update
+sudo echo 'sudo apt update' >> ~/bin/update
+sudo echo 'sudo apt upgrade -y' >> ~/bin/update
 sudo chmod 755 ~/bin/update
 
 #create sysclean script
-touch ~/bin/sysclean
-echo '#!/bin/bash' >> ~/bin/sysclean
-echo 'sudo apt autoremove' >> ~/bin/sysclean
-echo 'trash-empty' >> ~/bin/sysclean
-echo 'trash has been cleaned'
+sudo touch ~/bin/sysclean
+sudo echo '#!/bin/bash' >> ~/bin/sysclean
+sudo echo 'sudo apt autoremove' >> ~/bin/sysclean
+sudo echo 'trash-empty' >> ~/bin/sysclean
+sudo echo 'trash has been cleaned'
 sudo chmod 755 ~/bin/sysclean
 
 
