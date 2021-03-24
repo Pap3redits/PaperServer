@@ -24,7 +24,7 @@ sudo touch ~/bin/sysclean
 sudo echo '#!/bin/bash' >> ~/bin/sysclean
 sudo echo 'sudo apt autoremove' >> ~/bin/sysclean
 sudo echo 'trash-empty' >> ~/bin/sysclean
-sudo echo 'trash has been cleaned'
+sudo echo 'trash has been cleaned' >> ~/bin/sysclean
 sudo chmod 755 ~/bin/sysclean
 
 
