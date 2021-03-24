@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #list of apps to install
-Apt_List="trash-cli neofetch vim snapd discord steam net-tools piper htop gnome-tweaks"
+Apt_List="trash-cli neofetch vim snapd discord steam net-tools piper htop gnome-tweaks vlc "
 Snap_List="spotify"
 
 
