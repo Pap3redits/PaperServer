@@ -27,9 +27,12 @@ sudo echo 'trash-empty' >> ~/bin/sysclean
 sudo echo 'trash has been cleaned' >> ~/bin/sysclean
 sudo chmod 755 ~/bin/sysclean
 
-
-
-
+#install listed programs
 sudo apt install -y $Apt_List
 sudo snap install  $Snap_List
 
+#install MangoHud
+sudo git clone --recurse-submodules https://github.com/flightlessmango/MangoHud.git
+sudo MangoHud/build.sh build
+sudo MangoHud/build.sh package
+sudo MangoHud/build.sh install
