@@ -1,25 +1,25 @@
 #!/bin/bash
 
 
-**********************
-Updating apt packages
-**********************
+echo "**********************"
+echo "Updating apt packages"
+echo "**********************"
 
 sudo apt update
 sudo apt upgrade -y
 
-**********************
-Updating flatpaks 
-**********************
+echo "**********************"
+echo "Updating flatpaks "
+echo "**********************"
 update flatpak -y
 
-**********************
-Updating snaps
-**********************
+echo "**********************"
+echo "Updating snaps"
+echo "**********************"
 
 sudo snap refresh
 
-**********************
-Update Completed!
-**********************
+echo "**********************"
+echo "Update Completed!"
+echo "**********************"
 
