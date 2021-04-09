@@ -1,2 +1,4 @@
 # PaperServer
-run the install script from the home directory
+
+
+The script installs all the my commonly used programs ans scripts to a new ubuntu install.
