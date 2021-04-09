@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #list of apps to install
-Apt_List="trash-cli neofetch vim snapd discord steam net-tools piper htop gnome-tweaks vlc mlocate flatpak"
-Snap_List="spotify"
+Apt_List="trash-cli neofetch vim snapd discord steam-installer net-tools piper htop gnome-tweaks mlocate"
+Snap_List="spotify vlc discord"
 
 
 #update system
@@ -13,12 +13,15 @@ sudo apt upgrade -y
 sudo mkdir ~/bin
 
 #copy update script to ~/bin folder
-cp update.sh ~/bin/.
+sudo cp update.sh ~/bin/.
 sudo chmod 755 ~/bin/update
 
 #copy sysclean script to ~/bin folder
-cp sysclean.sh ~/bin/.
+sudo cp sysclean.sh ~/bin/.
 sudo chmod 755 ~/bin/sysclean
+
+#add ~/bin to the PATH
+export PATH=$PATH:~/bin
 
 #install listed programs
 sudo apt install -y $Apt_List
