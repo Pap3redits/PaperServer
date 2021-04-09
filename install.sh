@@ -13,11 +13,11 @@ sudo apt upgrade -y
 sudo mkdir ~/bin
 
 #copy update script to ~/bin folder
-sudo cp update.sh ~/bin/.
+sudo cp update ~/bin/.
 sudo chmod 755 ~/bin/update
 
 #copy sysclean script to ~/bin folder
-sudo cp sysclean.sh ~/bin/.
+sudo cp sysclean ~/bin/.
 sudo chmod 755 ~/bin/sysclean
 
 #add ~/bin to the PATH
